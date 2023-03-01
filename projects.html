@@ -9,6 +9,7 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 <body>
 
@@ -16,13 +17,11 @@
 <h1>Strona - wizytówka na zajęcia z Webbuilding i Webapps.</h1>
 <p>Przy resajzie ta strona powinna być responsywna!</p>
 </div>
-<div class="bg-light">
-<nav class="navbar navbar-dark navbar-expand-sm bg-dark sticky-top d-flex">
-<a class="navbar-brand flex-grow-1" href="#">
+<div class="bg-dark">
+ <nav class="navbar navbar-dark navbar-expand-sm bg-dark sticky-top d-flex">
+ <a class="navbar-brand flex-grow-1" href="#">
     <img src="files/images/hatlogo1small.png" alt="Hat Logo" style="width:40px;" class="float-left">
-  </a>
-
-  <!-- Links -->
+ </a>
 
   <ul class="navbar-nav justify-content-end">
     <li class="nav-item">
@@ -44,7 +43,89 @@
 </nav>
 
 <div class="p-4" style="margin-top:15px">
+<div class="container-md">
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block mx-auto" src="files/images/dronz.png" alt="Drony" height="500">
+      <div class="carousel-caption text-info">
+        <h3>Drone building</h3>
+        <p>Projects of carbon drones and foam UAV's.</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img class="d-block mx-auto"  src="files/images/tele.png" alt="Instrumenty" height="500">
+      <div class="carousel-caption text-info">
+        <h3>Luthiery</h3>
+        <p>Instruments building.</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img class="d-block mx-auto" src="files/images/procek2.png" alt="IT" height="500">
+      <div class="carousel-caption text-info">
+        <h3>IT Stuff</h3>
+        <p>Stuff related to different branches of IT.</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
 
+<!--
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+	<div class="carousel-caption"
+	<h3>Drone building</h3>
+	<p>Projects of carbon drones and foam UAV's.</p>
+	<div>
+      <img src="files/images/drony.png" alt="Drony">
+    </div>
+    <div class="carousel-item">
+	<div class="carousel-caption"
+	<h3>Luthiery</h3>
+	<p>Bass, baritone and electric guitar building.</p>
+	<div>
+      <img src="files/images/guitar.png" alt="Instrumenty">
+    </div>
+	</div>
+    <div class="carousel-item">
+	<div class="carousel-caption"
+	<h3>IT Stuff</h3>
+	<p>Stuff related to different branches of IT.</p>
+	<div>
+      <img src="files/images/procek2.png" alt="IT">
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+-->
+</div>
+
+
+</div>
 </div>
 </div>
 </body>
